@@ -1,0 +1,48 @@
+<header>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fjellby.IT</title>
+<link rel="stylesheet" href="style.css">
+<div class="container">
+<nav>
+<div class="logo">Fjellby.IT</div>
+
+<div class="menu">
+<a href="#">Hjem</a>
+<a href="#">Tjenester</a>
+<a href="#">Om meg</a>
+<a href="#">Kontakt</a>
+</div>
+</nav>
+</div>
+</header>
+
+<section class="hero container">
+<h1>IT-Konsulent med mange interesser innenfor teknologi, sikkerhet, nettverk, hardware, gaming, DIY og mye mer.</h1>
+
+<p>
+Praktiske og stabile IT-løsninger dokumentert gjennom små IT, Tech og DIY prosjekter.
+</p>
+
+<a href="#" class="btn">Kontakt meg</a>
+
+
+
+<footer>
+<p id="clock"></p>
+</footer>
+
+<script>
+function updateClock() {
+const now = new Date();
+
+document.getElementById("clock").textContent =
+now.toLocaleString("nb-NO", {
+timeZone: "Europe/Oslo"
+});
+}
+
+updateClock();
+setInterval(updateClock, 1000);
+</script>
+</section>
