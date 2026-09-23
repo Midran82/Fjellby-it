@@ -37,9 +37,7 @@ function updateClock() {
 const now = new Date();
 
 document.getElementById("clock").textContent =
-now.toLocaleString("nb-NO", {
-timeZone: "Europe/Oslo"
-});
+now.toLocaleString();
 }
 
 updateClock();
