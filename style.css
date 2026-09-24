@@ -212,6 +212,30 @@ gap: 1rem;
 
 }
 
+@media (max-width: 768px) {
+
+nav {
+flex-direction: column;
+gap: 15px;
+}
+
+.menu {
+flex-wrap: wrap;
+justify-content: center;
+gap: 15px;
+}
+
+.hero h1 {
+font-size: 2rem;
+text-align: center;
+}
+
+.hero p {
+text-align: center;
+}
+
+}
+
 #clock {
 color: #84cc16;
 
