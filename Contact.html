@@ -1,5 +1,46 @@
+<header>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fjellby.IT</title>
+<link rel="stylesheet" href="style.css">
+<div class="container">
+<nav>
+<div class="logo">Fjellby.IT</div>
+
+<div class="menu">
+<a href="index.html">Hjem</a>
+<a href="services.html">Tjenester</a>
+<a href="About.html">Om meg</a>
+<a href="Contact.html">Kontakt</a>
+</div>
+</nav>
+</div>
+</header>
+
+
+<section class="hero container">
+
+
 <h1>Kontakt</h1>
 
 <p>E-post: kommer senere</p>
 
 <p>LinkedIn: kommer senere</p>
+
+
+<footer>
+<p id="clock"></p>
+</footer>
+
+<script>
+function updateClock() {
+const now = new Date();
+
+document.getElementById("clock").textContent =
+now.toLocaleString();
+}
+
+updateClock();
+setInterval(updateClock, 1000);
+</script>
+</section>
