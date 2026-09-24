@@ -60,6 +60,13 @@ a:hover {
 color: var(--lime-hover);
 }
 
+.menu a.active {
+color: #84cc16;
+font-weight: 700;
+border-bottom: 2px solid #84cc16;
+padding-bottom: 4px;
+}
+
 /* Header */
 
 header {
