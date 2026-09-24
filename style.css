@@ -4,6 +4,12 @@ FJELLBY.IT
 Minimal mørk stil
 ================================================== */
 
+html,
+body {
+overflow-x: hidden;
+}
+
+
 :root {
 --lime: #84cc16;
 --lime-hover: #65a30d;
@@ -79,6 +85,7 @@ nav {
 display: flex;
 justify-content: space-between;
 align-items: center;
+flex-direction: column;
 }
 
 .logo {
